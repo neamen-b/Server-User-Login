@@ -1,0 +1,25 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "A registraion page that also handles logins, logouts, and page that displayes user information.",
+  "main": "MyServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/neamen-b/Server-User-Login"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "typscript"
+  ],
+  "author": "Neamen Beyene",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "package.json": "^2.0.1"
+  }
+}

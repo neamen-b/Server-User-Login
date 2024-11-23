@@ -4,9 +4,9 @@ const fs = require('fs');
 const app = express();
 const PORT = 3000;
 
-// Middleware for parsing URL-encoded bodies (replacing body-parser)
+// Middleware for parsing URL-encoded bodies
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname)); // For serving static files like HTML and CSS
+app.use(express.static(__dirname)); // For serving static files like html and css
 
 // Session setup
 app.use(
